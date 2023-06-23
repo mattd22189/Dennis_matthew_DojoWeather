@@ -1,0 +1,96 @@
+.navBar{
+    background-color: rgb(0, 145, 255);
+    width:100%;
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex{
+    display:flex;
+}
+ul>li{
+    color:white;
+    margin:30px 30px 30px 0px;
+    list-style-type: none;
+}
+.center{
+    display: block;
+    padding:0px 20% 0px 20%;
+}
+.just {
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-grow: 1;
+}
+.weatherCard{
+    background-color:rgb(196, 221, 232);
+    width: 15%;
+    height: 300px;
+    margin: 5px;
+}
+.popUp{
+    border-color: black;
+    border-style: solid;
+    background-color: blanchedalmond;
+    padding: 5px;
+    align-content: center;
+    margin:10px;
+    position:fixed;
+    width:60%;
+}
+.btn{
+    width: 100px;
+    height: 25px;
+    margin: 5px;
+}
+.auto{
+    margin: 0px auto 0px auto;
+}
+#temp{
+    margin:10px 5px 5px 5px;
+    width:auto;
+    height: 25px;
+}
+.v-align{
+    vertical-align: baseline;
+}
+.pad{
+    padding: 20px;
+}
+.w_Img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+}
+.red{
+    color:red;
+}
+.blue{
+    color:rgb(0, 145, 255);
+
+}
+hr{
+    border:2px solid black;
+}
+h1{
+    color:white;
+}
+.mid{
+    display:flex;
+    vertical-align:middle;
+    align-content: center;
+    justify-content: center;
+    text-align: center ;
+}
+.block{
+    display:block;
+}
+.mid2{
+    vertical-align: center;
+}

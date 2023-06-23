@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <nav class="navBar" >
+            <h1>DojoWeather</h1> 
+            <div>
+                <ul class=" flex">
+                    <li onclick="alert('Loading weather report...')">Burbank</li>
+                    <li onclick="alert('Loading weather report...')">chicago</li>
+                    <li onclick="alert('Loading weather report...')">Dallas</li>
+                </ul>
+            </div>
+        </nav >
+        <div class="center">
+            <div class="just v-align">
+                <h2>San Jose</h2>
+                <div class="flex mid2">
+                    <p>show temperature in</p>
+                    <select onselect="converter(this)" name="temperature" id="temp">
+                        <option  selected="selected" value="C">Celsius</option>
+                        <option  value="F">Fahrenheit</option>
+                    </select>
+                </div>    
+            </div>
+            <hr>
+            <div class="just ">
+                <div class="weatherCard pad mid auto">
+                    
+                    <div class="block">
+                        <h3>Today</h3>
+                        <img class="w_Img" src="assets/some_rain.png" alt="">
+                        <p>some rain</p>
+                    
+                    <div class="flex2">
+                        <p  class="today1 red">24</p>
+                        <p  class="today2 blue">18</p>
+                    </div>
+                </div>
+                </div>
+                <div class="weatherCard mid pad auto">
+                    
+                    <div>
+                        <h3>Tomorrow</h3>
+                        <img class="w_Img" src="assets/some_sun.png" alt="">
+                    
+                    <p>some sun</p>
+                    <div class="flex2">
+                        <p  class="tomorrow1 red">27</p>
+                        <p  class="tomorrow2 blue">19</p>
+                    </div>
+                </div>
+                </div>
+                <div class="weatherCard mid pad auto">
+                    
+                    <div>
+                        <h3>Friday</h3>
+                        <img class="w_Img" src="assets/some_clouds.png" alt="">
+                    
+                    <p>some clouds</p>
+                    <div class="flex2">
+                        <p  class="friday1 red">21</p>
+                        <p  class="friday2 blue">16</p>
+                    </div>
+                </div>
+                </div>
+                <div class="weatherCard mid pad auto">
+                    
+                    <div >
+                        <h3>Saturday</h3>
+                        <img class="w_Img" src="assets/some_sun.png" alt="">
+                    
+                    <p>some sun</p>
+                    <div class="flex2">
+                        <p  class="saturday1 red">26</p>
+                        <p  class="saturday2 blue">21</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div>
+                <div id="popUp1" class="popUp flex">
+                    <img src="assets/cookie.png" alt="cookie photo">
+                    <h3>Stop! Cookie Time</h3>
+                    <p>we use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="...">Read more...</a></p>
+                    <button onclick="accept()" class="btn">I Accept</button>
+                </div>
+            </div>
+        </div>
+    <footer></footer>
+    </body>
+</html>
