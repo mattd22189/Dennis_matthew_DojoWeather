@@ -20,7 +20,14 @@ function converter(){
         document.querySelector(".saturday2").innerText = Math.round((((document.querySelector(".saturday2").innerText) * 1) - 32) * 5/9)
     } else { 
        console.log("converting to f")
-        document.querySelector(" .today1 ").innerText = Math.round(( ((document.querySelector(" .today1").innerText) * 1) * 9/5) + 32)
+        document.querySelector(".today1").innerText = Math.round( (((document.querySelector(".today1").innerText) * 1) * 9/5) + 32)
+        document.querySelector(".today2").innerText = Math.round((((document.querySelector(".today2").innerText) * 1) * 9/5) + 32)      
+        document.querySelector(".tomorrow1").innerText = Math.round((((document.querySelector(".tomorrow1").innerText) * 1) * 9/5) + 32)
+        document.querySelector(".tomorrow2").innerText = Math.round( (((document.querySelector(".tomorrow2").innerText) * 1) * 9/5) + 32)
+        document.querySelector(".friday1").innerText = Math.round( (((document.querySelector(".friday1").innerText) * 1) * 9/5) + 32)
+        document.querySelector(".friday2").innerText = Math.round((((document.querySelector(".friday2").innerText) * 1) * 9/5) + 32)
+        document.querySelector(".saturday1").innerText = Math.round((((document.querySelector(".saturday1").innerText) * 1) * 9/5) + 32)
+        document.querySelector(".saturday2").innerText = Math.round((((document.querySelector(".saturday2").innerText) * 1) * 9/5) + 32)
     }
 }
 
